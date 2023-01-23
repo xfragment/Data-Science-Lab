@@ -1,0 +1,23 @@
+import math
+x=int(input("1.sin,2.cos,3.tan,4.log,5.mean      :"))
+if (x==1):
+    u=int(input())
+    print(math.sin(u))
+if (x==2):
+    u=int(input())
+    print(math.cos(u))
+if (x==3):
+    u=int(input())
+    print(math.tan(u))
+if (x==4):
+    u=int(input())
+    print(math.log(u))
+if (x==5):
+    l1=[]
+    n=int(input("no of inputs:"))
+    for i in range (n):
+        u=int(input())
+        l1.append(u)
+    mean=sum(l1)/len(l1)    
+    print(mean)
+
